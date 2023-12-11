@@ -9,6 +9,7 @@
     "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.9.3",
     "axios": "^1.6.2",
+    "package.json": "^2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-player": "^2.10.1",
@@ -26,7 +27,15 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
   },
   "browserslist": {
     "production": [
@@ -41,6 +50,8 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^1.0.0"
+    "eslint": "^8.0.0",
+    "eslint-config-react-app": "^7.0.0",
+    "eslint-plugin-jest": "^26.0.0"
   }
 }
