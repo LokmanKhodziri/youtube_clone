@@ -11,7 +11,7 @@ const SearchBar = () => {
             onSubmit={() => { }}
             sx={{
                 borderRadius: 20,
-                border: 'qpx solid #e3e3e3',
+                border: '1px solid #e3e3e3',
                 p1: 2,
                 boxShadow: 'none',
                 mr: { sm: 5 }
@@ -19,7 +19,7 @@ const SearchBar = () => {
         >
             <input
                 className='search-bar'
-                placeholder='Search...'
+                placeholder='   Search...'
                 value=""
                 onChange={() => { }}
             />
